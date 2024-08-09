@@ -217,6 +217,11 @@ li {
     text-indent: -20px;
 }
 
+.popular_tours_banner iframe{
+    width: 610px;
+    height: 424px;
+}
+
 /* Our Popular Tours section end */
 
 
