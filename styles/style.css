@@ -223,7 +223,7 @@ li {
 
 
 /* Choose Your Destination start */
-.choose_your_destination{
+.choose_your_destination {
     margin-bottom: 100px;
 }
 
@@ -232,7 +232,7 @@ li {
     text-align: center;
 }
 
-.image_gallery{
+.image_gallery {
     margin-top: 48px;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -259,30 +259,98 @@ li {
     transform: translate(-50%, -50%);
 }
 
-#country_card_1{
+#country_card_1 {
     grid-column: span 6;
 }
 
-#country_card_2{
+#country_card_2 {
     grid-column: span 6;
 }
 
-#country_card_3{
+#country_card_3 {
     grid-column: span 4;
 }
-#country_card_4{
+
+#country_card_4 {
     grid-column: span 5;
 }
-#country_card_5{
+
+#country_card_5 {
     grid-column: span 3;
 }
-#country_card_6{
+
+#country_card_6 {
     grid-column: span 5;
 }
-#country_card_7{
+
+#country_card_7 {
     grid-column: span 7;
 }
 
 
-
 /* Choose Your Destination end */
+
+
+
+
+
+
+
+/* Why Choose Us section start */
+
+.why_choose_us{
+    margin-bottom: 100px;
+}
+
+
+.section_header {
+    max-width: 643px;
+    text-align: center;
+}
+
+
+.service_cards {
+    display: flex;  
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+
+.service_card {
+    padding: 32px;
+    border-radius: 16px;
+    max-width: calc(50% - 24px);
+}
+
+
+.service_card .title {
+    margin: 2rem 0 1rem 0;
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.service_card .description {
+    line-height: 26px;
+    color: #5A5A5D;
+}
+
+
+
+#hotel {
+    background-color: rgba(251, 181, 99, 5%);
+    border: 1px solid rgba(251, 181, 99, 20%);
+}
+
+#service {
+    background-color: rgba(41, 206, 246, 5%);
+    border: 1px solid rgba(41, 206, 246, 20%);
+}
+
+#guarantee {
+    background-color: rgba(233, 68, 68, 5%);
+    border: 1px solid rgba(233, 68, 68, 20%);
+}
+
+/* Why Choose Us section end */
