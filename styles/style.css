@@ -217,6 +217,10 @@ li {
     text-indent: -20px;
 }
 
+.popular_tours_banner{
+    position: relative;
+}
+
 .popular_tours_banner iframe{
     width: 610px;
     height: 424px;
@@ -447,3 +451,72 @@ li {
     margin-top: 0;
 }
 /* Deals & Discount section end */
+
+
+
+/* Newsletter start */
+
+.newsletter_user_input_system{
+    padding: 40px;
+    border: 1px solid var(--primary-color);
+    border-radius: 16px;
+    box-sizing: border-box;
+}
+
+.newsletter_user_input_system form{
+    margin-top: 24px;
+}
+
+
+.newsletter_title{
+    font-size: 24px;
+    font-weight: 800; 
+}
+
+.newsletter_user_input_system input{
+    padding: 16px 20px;
+    width: 100%;
+    background-color: rgba(19, 19, 24, 5%);
+    border: none;
+    border-radius: 8px; 
+}
+
+.newsletter_user_input_system input::placeholder{
+    color: rgba(19, 19, 24, 30%);
+}
+
+.newsletter_user_input_system .subscribe_btn{
+    margin-top: 24px;
+}
+
+.newsletter_user_input_system input+input{
+    margin-top: 16px;
+}
+
+.subscribe_btn{
+    width: 100%;
+    margin-top: 0;
+}
+
+.offer_card{
+    background-color: var(--primary-color);
+    padding: 35px 45px;
+    color: white;
+    border-radius: 16px;
+    text-align: center;
+    max-width: 334px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transform: rotate(-19deg) translateX(17px);
+    transform-origin: left bottom;
+}
+
+.offer_card p{
+    font-size: 24px;
+}
+.offer_card h3{
+    font-size: 32px;
+    font-weight: 800;
+}
+/* Newsletter end */
