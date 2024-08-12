@@ -217,11 +217,11 @@ li {
     text-indent: -20px;
 }
 
-.popular_tours_banner{
+.popular_tours_banner {
     position: relative;
 }
 
-.popular_tours_banner iframe{
+.popular_tours_banner iframe {
     width: 610px;
     height: 424px;
 }
@@ -369,7 +369,7 @@ li {
 
 /* Deals & Discount section start */
 
-.catalogs{
+.catalogs {
     margin: 48px 0;
     display: flex;
     flex-direction: column;
@@ -390,10 +390,12 @@ li {
     background-image: url(../Images/Group\ 39.png);
     justify-content: end;
 }
+
 #catalog_2 {
     background-image: url(../Images/Group\ 40.png);
     justify-content: start;
 }
+
 #catalog_3 {
     background-image: url(../Images/Group\ 39.png);
     justify-content: end;
@@ -442,63 +444,64 @@ li {
 }
 
 
-#click_for_more{
+#click_for_more {
     display: flex;
     justify-content: center;
 }
 
-#click_for_more button{
+#click_for_more button {
     margin-top: 0;
 }
+
 /* Deals & Discount section end */
 
 
 
 /* Newsletter start */
 
-.newsletter_user_input_system{
+.newsletter_user_input_system {
     padding: 40px;
     border: 1px solid var(--primary-color);
     border-radius: 16px;
     box-sizing: border-box;
 }
 
-.newsletter_user_input_system form{
+.newsletter_user_input_system form {
     margin-top: 24px;
 }
 
 
-.newsletter_title{
+.newsletter_title {
     font-size: 24px;
-    font-weight: 800; 
+    font-weight: 800;
 }
 
-.newsletter_user_input_system input{
+.newsletter_user_input_system input {
     padding: 16px 20px;
     width: 100%;
     background-color: rgba(19, 19, 24, 5%);
     border: none;
-    border-radius: 8px; 
+    border-radius: 8px;
 }
 
-.newsletter_user_input_system input::placeholder{
+.newsletter_user_input_system input::placeholder {
     color: rgba(19, 19, 24, 30%);
 }
 
-.newsletter_user_input_system .subscribe_btn{
+.newsletter_user_input_system .subscribe_btn {
     margin-top: 24px;
 }
 
-.newsletter_user_input_system input+input{
+.newsletter_user_input_system input+input {
     margin-top: 16px;
 }
 
-.subscribe_btn{
+.subscribe_btn {
     width: 100%;
     margin-top: 0;
 }
 
-.offer_card{
+.offer_card {
     background-color: var(--primary-color);
     padding: 35px 45px;
     color: white;
@@ -512,11 +515,49 @@ li {
     transform-origin: left bottom;
 }
 
-.offer_card p{
+.offer_card p {
     font-size: 24px;
 }
-.offer_card h3{
+
+.offer_card h3 {
     font-size: 32px;
     font-weight: 800;
 }
+
 /* Newsletter end */
+
+
+/* Footer start */
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 110px 284px;
+    background-color: rgba(19, 19, 24, 5%);
+}
+
+.footer_description{
+    margin: 15px 0 32px;
+    line-height: 26px;
+    color: #5A5A5D;
+    text-align: center;
+}
+
+.social_media_icons{
+    display: flex; 
+    gap: 32px;
+}
+
+.social_media_icons a{
+    color: var(--dark);
+    font-size: 24px;
+}
+
+.hr{
+    border-top: 1px solid rgba(19, 19, 24, 10%);
+    width: 100%;
+    margin: 50px 0;
+}
+.footer .copyright{ 
+}
+/* Footer end */
